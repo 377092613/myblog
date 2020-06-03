@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.myblog.dao.TypeRepository">
+    <!--Type saveType(Type type);
+    Type getType(Long id);
+    Type updateType(Long id,Type type);
+    void deleteType(Long id);-->
+    <insert id="saveType">
+        insert into t_type
+        <if test="id!=null">
+            values(#{id},#{name},#{blogs})
+        </if>
+        <if test="id==null">
+            (name,blogs) values (#{name},#{blogs})
+        </if>
+    </insert>
+    
+    <select id="getType" resultType="Type">
+        select * from t_type where id=#{id}
+    </select>
+
+    <update id="updateType">
+        update t_type
+        <trim prefix="set" suffixOverrides=",">
+        <if test="#{type.name}!=null">name=#{type.name},</if>
+        <if test="#{type.blogs}!=null">blogs=#{type.blogs}</if>
+        </trim>
+        where id=#{id}
+    </update>
+
+    <delete id="deleteType">
+        delete from t_type where id=#{id}
+    </delete>
+
+    <select id="getAllType" resultType="Type">
+        select * from t_type
+    </select>
+
+    <select id="getTypeByName" resultType="Type">
+        select * from t_type where name=#{name}
+    </select>
+
+</mapper>

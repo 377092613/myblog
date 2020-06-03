@@ -1,0 +1,12 @@
+2020-02-22 16:43:06.792  INFO 9468 --- [main] com.myblog.MyblogApplicationTests        : Starting MyblogApplicationTests on SKY-20160604CQO with PID 9468 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-02-22 16:43:06.825 DEBUG 9468 --- [main] com.myblog.MyblogApplicationTests        : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-22 16:43:06.825  INFO 9468 --- [main] com.myblog.MyblogApplicationTests        : The following profiles are active: dev
+2020-02-22 16:43:11.521  INFO 9468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-22 16:43:11.777  INFO 9468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-22 16:43:12.272  INFO 9468 --- [main] com.myblog.MyblogApplicationTests        : Started MyblogApplicationTests in 7.4 seconds (JVM running for 9.341)
+2020-02-22 16:43:12.724  INFO 9468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-22 16:43:12.728  WARN 9468 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-22 16:43:12.971  INFO 9468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-22 16:43:13.633  INFO 9468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-22 16:43:13.638  INFO 9468 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-22 16:43:13.652  INFO 9468 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

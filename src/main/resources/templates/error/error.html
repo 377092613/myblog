@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<!--<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+</head>-->
+<head th:include="_fragments :: head(title='Error')">
+
+</head>
+<body>
+<nav th:include="_fragments :: menu(n=100)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small"></nav>
+
+<br>
+<br>
+<br>
+
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui error message m-padded-tb-huge" >
+        <div class="ui contianer">
+            <h2>Error</h2>
+            <p>代码存在错误</p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="ui inverted vertical segment m-padded-tb-massive" th:include="admin/_fragments :: footer"></footer>
+</body>
+</html>

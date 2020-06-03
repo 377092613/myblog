@@ -1,0 +1,14 @@
+2020-03-17 15:43:41.600  INFO 3296 --- [main] com.myblog.MyblogApplicationTests        : Starting MyblogApplicationTests on SKY-20160604CQO with PID 3296 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-03-17 15:43:41.608 DEBUG 3296 --- [main] com.myblog.MyblogApplicationTests        : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-17 15:43:41.609  INFO 3296 --- [main] com.myblog.MyblogApplicationTests        : The following profiles are active: dev
+2020-03-17 15:43:46.041  INFO 3296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 15:43:46.258  INFO 3296 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-17 15:43:46.974  INFO 3296 --- [main] com.myblog.MyblogApplicationTests        : Started MyblogApplicationTests in 6.304 seconds (JVM running for 8.771)
+2020-03-17 15:43:47.483  INFO 3296 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 15:44:41.272  INFO 10352 --- [main] com.myblog.MyblogApplicationTests        : Starting MyblogApplicationTests on SKY-20160604CQO with PID 10352 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-03-17 15:44:41.274 DEBUG 10352 --- [main] com.myblog.MyblogApplicationTests        : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-17 15:44:41.275  INFO 10352 --- [main] com.myblog.MyblogApplicationTests        : The following profiles are active: dev
+2020-03-17 15:44:44.383  INFO 10352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 15:44:44.660  INFO 10352 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-17 15:44:45.258  INFO 10352 --- [main] com.myblog.MyblogApplicationTests        : Started MyblogApplicationTests in 4.509 seconds (JVM running for 5.613)
+2020-03-17 15:44:45.537  INFO 10352 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

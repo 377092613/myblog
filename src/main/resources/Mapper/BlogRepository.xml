@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.myblog.dao.BlogRepository">
+    <select id="getBlogTags" resultMap="convertoTag">
+            SELECT t_blog.id,t_blog.title,t_blog.content,t_blog.firstPicture,t_blog.flag,t_blog.views,t_blog.appreciation,t_blog.shareStatement,t_blog.commentable,t_blog.published,t_blog.recommened,t_blog.createTime,t_blog.updateTime,t_tag.id tagid,t_tag.name tagname,blogs tagblogs FROM t_blog INNER JOIN t_tag ON FIND_IN_SET(t_tag.`id`,tags) where t_blog.`id`=#{blogid}
+    </select>
+
+    <select id="getBlogType" resultMap="convertoType">/*resultMap="convertBlog"*/
+        SELECT typeid,t_type.id,t_type.name typename,t_type.blogs typeblogs FROM t_blog,t_type WHERE t_type.id=typeid AND t_blog.`id`=#{blogid}
+    </select>
+
+    <select id="getBlogComments" resultMap="convertoComment">/*resultMap="convertBlog"*/
+        SELECT * FROM t_comment WHERE blogid=#{commentblogid} and replyCommentid is null
+    </select>
+
+    <select id="selectReplyComment" resultType="Comment">
+        select * from t_comment WHERE replyCommentid=#{commentid}
+    </select>
+
+    <resultMap id="convertoComment" type="Comment">
+        <id column="id" property="id"></id>
+        <result column="nickname" property="nickname"></result>
+        <result column="email" property="email"></result>
+        <result column="content" property="content"></result>
+        <result column="avatar" property="avatar"></result>
+        <result column="createTime" property="createTime"></result>
+        <result column="blogid" property="blogid"></result>
+        <collection property="replyComments" ofType="Comment" select="selectReplyComment" column="commentid=id">
+
+        </collection>
+    </resultMap>
+
+
+    <resultMap id="convertBlog" type="Blog">
+        <id column="id" property="id"></id>
+        <result column="title" property="title"></result>
+        <result column="content" property="content"></result>
+        <result column="firstPicture" property="firstPicture"></result>
+        <result column="flag" property="flag"></result>
+        <result column="views" property="views"></result>
+        <result column="appreciation" property="appreciation"></result>
+        <result column="shareStatement" property="shareStatement"></result>
+        <result column="commentable" property="commentable"></result>
+        <result column="published" property="published"></result>
+        <result column="recommened" property="recommened"></result>
+        <result column="createTime" property="createTime"></result>
+        <result column="updateTime" property="updateTime"></result>
+        <result column="description" property="description"></result>
+        <result property="userid" column="userid"></result>
+        <association property="type" javaType="Type" select="getBlogType" column="blogid=id">
+        </association>
+
+        <collection property="tags" ofType="Tag" select="getBlogTags"  column="blogid=id">
+
+        </collection>
+        
+        <collection property="comments" ofType="Comment" select="getBlogComments" column="commentblogid=id">
+
+        </collection>
+        
+    </resultMap>
+
+    <resultMap id="convertoTag" type="Tag">
+        <id column="tagid" property="id"></id>
+        <result column="tagname" property="name"></result>
+        <result column="tagblogs" property="blogs"></result>
+    </resultMap>
+
+    <resultMap id="convertoType" type="Type">
+        <id column="typeid" property="id"></id>
+        <result column="typename" property="name"></result>
+        <result column="typeblogs" property="blogs"></result>
+    </resultMap>
+
+    <select id="getAllBlog" resultMap="convertBlog">
+        select * from t_blog
+    </select>
+
+    <insert id="insertBlog">
+        insert into t_blog(title,content,firstPicture,flag,views,appreciation,shareStatement,commentable,published,recommened,createTime,updateTime,typeid,tags,userid,description) values(#{blog.title},#{blog.content},#{blog.firstPicture},#{blog.flag},#{blog.views},#{blog.appreciation},#{blog.shareStatement},#{blog.commentable},#{blog.published},#{blog.recommened},#{blog.createTime},#{blog.updateTime},#{typeid},#{tags},#{blog.userid},#{blog.description})
+    </insert>
+
+    <delete id="deleteBlogById">
+        delete from t_blog where id=#{id}
+    </delete>
+
+    <select id="getBlogById" resultMap="convertBlog">
+        select * from t_blog where id=#{id}
+    </select>
+
+    <update id="updateBlog">
+        update t_blog set title=#{blog.title},content=#{blog.content},firstPicture=#{blog.firstPicture},flag=#{blog.flag},appreciation=#{blog.appreciation},shareStatement=#{blog.shareStatement},commentable=#{blog.commentable},published=#{blog.published},recommened=#{blog.recommened},updateTime=#{blog.updateTime},typeid=#{typeid},tags=#{tags},commentable=#{blog.commentable},description=#{blog.description} where id=#{blog.id}
+    </update>
+
+    <select id="getBlogsBySearch" resultMap="convertBlog">
+        select * from t_blog
+        <where>
+            <if test="title!=''">
+                <if test="title!=null">
+              and title like CONCAT('%',#{title},'%')
+                </if>
+            </if>
+            <if test="typeid!=null and typeid!=''">
+                and typeid=#{typeid}
+            </if>
+            <if test="recommened!=null">
+                and recommened=#{recommened}
+            </if>
+        </where>
+    </select>
+
+    <select id="getBlogNumberByTypeid" resultType="Integer">
+        select count(*) from t_blog where typeid=#{typeid}
+    </select>
+
+    <select id="getBlogNumberByTagid" resultType="Integer">
+       SELECT COUNT(*) FROM t_blog,t_tag WHERE FIND_IN_SET(t_tag.id,tags) AND t_tag.id=#{tagid}
+    </select>
+
+    <update id="addViews">
+        update t_blog set views=views+1 where id=#{id}
+    </update>
+
+    <select id="getBlogByTypeid" resultMap="convertBlog">
+        select * from t_blog where typeid=#{id}
+    </select>
+
+    <select id="getBlogByTagid" resultMap="convertBlog">
+        select * from t_blog where FIND_IN_SET(#{id},tags)
+    </select>
+
+    <select id="getAllBlogForpublished" resultMap="convertBlog">
+        select * from t_blog where published=1 ORDER BY updateTime DESC
+    </select>
+
+</mapper>

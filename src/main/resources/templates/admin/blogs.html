@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
+    <title>博客管理</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../css/me.css">
+</head>
+<body>
+<!--导航-->
+
+<nav th:include="admin/_fragments :: menu(n=1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" ></nav>
+
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a th:href="'/manage/createblog/'+${user.id}" class="item">发布</a>
+            <a th:href="@{/manage/blogpage/1/5/true}" class="teal active item">列表</a>
+        </div>
+    </div>
+</div>
+
+
+<!--中间内容-->
+<div class="m-padded-tb-large m-container-small m-padded-tb-big">
+    <div class="ui container">
+
+        <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="header">提示：</div>
+            <p th:text="${message}">恭喜，操作成功！</p>
+        </div>
+
+        <form th:action="@{/manage/blogs/search}" method="post" class="ui segment form">
+            <div class="inline fields">
+                <div class="field">
+                    <input type="text" name="title" th:value="${searchtitle}" placeholder="标题"/>
+                </div>
+                <div class="field">
+                    <div class="ui selection dropdown">
+                        <input type="hidden" name="typeid" th:value="${typeid}">
+                        <i class="dropdown icon"></i>
+                        <div class="text" th:text="${typename}==null?'分类':${typename}" th:classappend="${typename}==null?'default'">分类</div>
+                        <div class="menu">
+                            <div class="item" th:each="type:${types}" th:data-value="${type.id}" th:text="${type.name}">错误日志</div>
+                            <!--<div class="item" data-value="1">开发者手册</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui checkbox">
+                        <input type="checkbox"  th:checked="${recommened}" name="recommened">
+                        <label for="recommened">推荐</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <button id="search-btn" class="ui mini teal basic button"><i class="search link icon"></i>搜索</button>
+                </div>
+            </div>
+        </form>
+
+        <div id="table-container">
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>标题</th>
+                    <th>类型</th>
+                    <th>推荐</th>
+                    <th>状态</th>
+                    <th>更新时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr th:each="blog:${pageInfo.list}">
+                <td th:text="${blog.id}">1</td>
+                <td th:text="${blog.title}">刻意练习清单</td>
+                <td th:text="${blog.type.name}"></td>
+                <td th:text="${blog.recommened == true? '是' : '否'}">否</td>
+                <td th:text="${blog.published} ? '发布':'草稿'"></td>
+                <td th:text="${blog.updateTime}">2020-01-13 09:45</td>
+                <td>
+                    <a th:href="'/manage/editblog/'+${blog.id}+'/'+${pageInfo.pageNum}+'/'+${user.id}" class="ui mini teal button">编辑</a>
+                    <a th:href="'/manage/deleteblog/'+${blog.id}+'/'+${pageInfo.pageNum}" class="ui mini red button">删除</a>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="7">
+                    <div class="ui mini pagination menu">
+                        <a class="item" th:href="'/manage/blogpage/'+${pageInfo.pageNum==1?1:pageInfo.pageNum-1}+'/5/true'">上一页</a>
+                        <a class="item" th:href="'/manage/blogpage/'+${pageInfo.pageNum==pageInfo.pages?pageInfo.pages:pageInfo.pageNum+1}+'/5/true'">下一页</a>
+                    </div>
+                    <a th:href="'/manage/createblog/'+${user.id}" class="ui mini right floated orange button">新增</a>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+        </div>
+
+    </div>
+</div>
+
+<!--底部footer-->
+<footer class="ui inverted vertical segment m-padded-tb-massive" th:include="_fragments :: footer"></footer>
+<script src="../js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function(){
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on:'hover'
+    });
+
+
+
+    $("#search-btn").click(function () {
+        //$("[name='page']").val(0);
+        loaddata();
+    });
+    function loaddata() {
+        $("#table-container").load("/manage/blogs/search",{
+            title : $("[name='title']").val(),
+            typeId : $("[name='typeid']").val(),
+            recommend : $("[name='recommend']").prop('checked'),
+        });
+    }
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,537 @@
+2020-01-16 13:20:01.683  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:20:01.683 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:20:01.683  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:20:01.897  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:20:01.958  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:20:01.989  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:20:01.990  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:20:01.990  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:20:02.012  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:20:02.013  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 327 ms
+2020-01-16 13:20:02.080  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:20:02.211  INFO 12412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 13:20:02.269  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 13:20:02.269  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 0.659 seconds (JVM running for 752.343)
+2020-01-16 13:20:02.270  INFO 12412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 13:22:11.258  INFO 12412 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:22:58.655  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:22:58.655 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:22:58.655  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:22:58.910  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:22:58.975  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:22:59.011  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:22:59.011  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:22:59.012  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:22:59.031  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:22:59.031  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 373 ms
+2020-01-16 13:22:59.125  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:22:59.282  INFO 12412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 13:22:59.339  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 13:22:59.339  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 0.816 seconds (JVM running for 929.398)
+2020-01-16 13:22:59.340  INFO 12412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 13:32:50.287  INFO 12412 --- [Thread-75] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:32:50.667  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:32:50.667 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:32:50.667  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:32:50.892  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:32:50.946  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:32:50.977  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:32:50.977  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:32:50.978  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:32:50.998  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:32:50.998  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 328 ms
+2020-01-16 13:32:51.083  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:32:51.233  INFO 12412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 13:32:51.289  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 13:32:51.290  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 0.659 seconds (JVM running for 1521.297)
+2020-01-16 13:32:51.291  INFO 12412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 13:33:08.191  INFO 12412 --- [Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:33:08.600  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:33:08.600 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:33:08.600  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:33:08.811  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:33:08.875  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:33:08.906  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:33:08.907  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:33:08.907  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:33:08.922  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:33:08.922  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 320 ms
+2020-01-16 13:33:09.002  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:33:09.145  INFO 12412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 13:33:09.208  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 13:33:09.208  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 0.644 seconds (JVM running for 1539.213)
+2020-01-16 13:33:09.209  INFO 12412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 13:34:18.794  INFO 12412 --- [Thread-87] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:34:19.214  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:34:19.214 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:34:19.214  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:34:19.421  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:34:19.479  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:34:19.509  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:34:19.512  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:34:19.513  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:34:19.527  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:34:19.527  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 310 ms
+2020-01-16 13:34:19.600  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:34:19.739  INFO 12412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 13:34:19.799  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 13:34:19.800  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 0.626 seconds (JVM running for 1609.799)
+2020-01-16 13:34:19.801  INFO 12412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 13:35:06.602  INFO 12412 --- [Thread-92] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:07.010  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:35:07.010 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:35:07.010  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:35:07.200  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:35:07.261  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:35:07.291  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:35:07.291  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:35:07.291  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:35:07.305  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:35:07.306  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 293 ms
+2020-01-16 13:35:07.367  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:07.420  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:35:07.420  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:07.420  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:35:07.425  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:35:07.458 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:35:22.358  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:35:22.358 DEBUG 12412 --- [restartedMain] com.myblog.MyblogApplication             : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-16 13:35:22.358  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:35:22.553  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:35:22.611  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:35:22.648  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:35:22.649  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:35:22.650  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:35:22.665  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:35:22.665  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 302 ms
+2020-01-16 13:35:22.735  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:22.776  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:35:22.776  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:22.776  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:35:22.781  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:35:22.782 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:35:30.469  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:35:30.470  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:35:30.713  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:35:30.757  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:35:30.787  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:35:30.787  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:35:30.788  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:35:30.802  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:35:30.802  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 328 ms
+2020-01-16 13:35:30.870  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:30.905  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:35:30.906  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:30.906  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:35:30.911  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:35:30.912 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:35:35.530  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:35:35.530  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:35:35.726  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:35:35.777  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:35:35.811  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:35:35.812  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:35:35.812  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:35:35.827  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:35:35.827  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 295 ms
+2020-01-16 13:35:35.907  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:35.951  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:35:35.952  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:35:35.953  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:35:35.958  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:35:35.958 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:36:02.206  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:36:02.207  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:36:02.448  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:36:02.509  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:36:02.549  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:36:02.550  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:36:02.550  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:36:02.569  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:36:02.570  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 359 ms
+2020-01-16 13:36:02.644  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:02.692  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:36:02.692  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:02.693  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:36:02.698  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:36:02.699 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:36:19.715  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:36:19.716  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:36:19.942  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:36:19.987  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:36:20.024  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:36:20.025  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:36:20.026  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:36:20.042  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:36:20.042  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 324 ms
+2020-01-16 13:36:20.098  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:20.200  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:36:20.200  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:20.200  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:36:20.208  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:36:20.209 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:36:56.747  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:36:56.748  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:36:56.953  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:36:57.004  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:36:57.040  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:36:57.041  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:36:57.041  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:36:57.054  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:36:57.054  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 304 ms
+2020-01-16 13:36:57.113  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:57.154  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:36:57.154  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:36:57.154  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:36:57.163  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:36:57.165 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:37:24.437  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:37:24.437  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:37:24.618  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:37:24.667  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:37:24.749  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:37:24.750  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:37:24.750  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:37:24.770  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:37:24.770  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 331 ms
+2020-01-16 13:37:24.838  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:24.886  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:37:24.886  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:24.886  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:37:24.900  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:37:24.901 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:37:45.075  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:37:45.076  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:37:45.255  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:37:45.299  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:37:45.330  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:37:45.330  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:37:45.331  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:37:45.348  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:37:45.348  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 270 ms
+2020-01-16 13:37:45.409  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:45.443  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:37:45.443  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:45.443  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:37:45.448  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:37:45.449 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:37:51.115  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:37:51.115  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:37:51.387  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:37:51.441  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:37:51.471  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:37:51.472  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:37:51.473  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:37:51.487  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:37:51.487  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 370 ms
+2020-01-16 13:37:51.554  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:51.590  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:37:51.590  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:51.591  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:37:51.599  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:37:51.600 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:37:58.299  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:37:58.299  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:37:58.487  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:37:58.533  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:37:58.567  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:37:58.567  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:37:58.568  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:37:58.586  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-10].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:37:58.587  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 285 ms
+2020-01-16 13:37:58.645  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:58.685  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:37:58.686  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:37:58.687  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:37:58.693  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:37:58.695 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:38:27.013  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:38:27.013  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:38:27.231  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:38:27.295  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:38:27.328  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:38:27.329  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:38:27.329  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:38:27.349  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-11].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:38:27.350  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 333 ms
+2020-01-16 13:38:27.426  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:38:27.471  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:38:27.473  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:38:27.475  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:38:27.486  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:38:27.487 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-16 13:39:28.807  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication on SKY-20160604CQO with PID 12412 (started by Administrator in D:\java\project in idea\Project with SpringBoot\myblog)
+2020-01-16 13:39:28.807  INFO 12412 --- [restartedMain] com.myblog.MyblogApplication             : No active profile set, falling back to default profiles: default
+2020-01-16 13:39:29.027  WARN 12412 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.myblog]' package. Please check your configuration.
+2020-01-16 13:39:29.082  WARN 12412 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 13:39:29.114  INFO 12412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 13:39:29.114  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 13:39:29.114  INFO 12412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 13:39:29.129  INFO 12412 --- [restartedMain] o.a.c.c.C.[Tomcat-12].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2020-01-16 13:39:29.129  INFO 12412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 319 ms
+2020-01-16 13:39:29.204  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:39:29.257  WARN 12412 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-16 13:39:29.257  INFO 12412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 13:39:29.258  INFO 12412 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-16 13:39:29.263  INFO 12412 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 13:39:29.263 ERROR 12412 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

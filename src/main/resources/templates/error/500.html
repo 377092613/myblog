@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<!--<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+</head>-->
+<head th:include="_fragments :: head(title='500')">
+
+</head>
+<body>
+<nav th:include="_fragments :: menu(n=100)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small"></nav>
+
+<br>
+<br>
+<br>
+
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui error message m-padded-tb-huge" >
+        <div class="ui contianer">
+            <h2>500</h2>
+            <p>对不起,服务器正在维修，请稍后访问</p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="ui inverted vertical segment m-padded-tb-massive" th:include="admin/_fragments :: footer"></footer>
+</body>
+</html>
